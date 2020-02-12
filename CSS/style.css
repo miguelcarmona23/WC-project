@@ -16,3 +16,9 @@ html {
     margin: 2rem auto;
     border-radius: 2px;
 }
+
+.photobooth:after {
+    content: '';
+    display: block;
+    clear: both;
+}
