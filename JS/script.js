@@ -96,3 +96,6 @@ function greenScreen(pixels) {
 
     return pixels;
 }
+getVideo();
+
+video.addEventListener('canplay', paintToCanvas);
